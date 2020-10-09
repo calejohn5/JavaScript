@@ -1,4 +1,4 @@
-//assign our vars to correct html IDs
+//assign our vars to correct html IDss
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minsEl = document.getElementById('mins');
