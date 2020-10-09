@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/countDownTimer/images/snow1.jpg");
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+.countdown-el {
+    text-align:center;
+
+}
+.countdown-el span {
+    font-size: 1.5rem;
+}
