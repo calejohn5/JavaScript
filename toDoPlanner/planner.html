@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+    Author: Caleb Johnson
+    Date: 03/07/2020
+   -->
+   
+    <title>To Do Planner</title>
+    <meta charset="utf-8" />
+    <script src="planner.js" async></script>
+    <style>
+    body {
+        background-color:#4ABDAC;  
+    }
+    .content {
+        max-width: 500px;
+        margin: auto;
+        }
+    #one {
+        color: #FC4A1A;
+        margin-bottom: 15%;
+        font-size: 60px;
+    }
+    #two {
+        color: #F7B733;
+        margin-bottom: 10%;
+        font-size: 30px;
+    }
+    #three {
+        margin-bottom: 5%;   
+    }
+    #four{
+        margin-bottom: 15%;   
+    }
+    #five{
+        color: #DFDCE3;
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="content">
+    <h1 id="one">WORK TO-DOS</h1>
+    <h3 id="two">Enter text into the input field to add items to your list (max. 28 characters).</h3>
+    <h3 id="three">Click the item to mark it as complete.</h3>
+    <h3 id="four">Click the "X" to remove the item from your list.</h3>
+    <div class="five">
+    <form class="input">
+        <input id="userInput" type="text" placeholder="New Item...">
+        <input type="button" id="btnOne">
+    </form>
+    
+        <ul id="todos">
+
+        </ul>
+        </div>
+    </div>
+</body>
+</html>
