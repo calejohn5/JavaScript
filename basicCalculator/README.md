@@ -1,0 +1,1 @@
+* This is a very basic Javascript calculator using if else statements
