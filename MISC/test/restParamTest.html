@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id='h1'>Hello!</h1>
+
+
+
+
+    <script>
+        function add(...nums) {
+            let total = 0;
+            for (const i of nums){
+            total += i;
+            }
+            return total;
+        }
+        const result = add(6, 25, 65);
+        console.log(result);
+
+    document.getElementById('h1').innerHTML = result;
+    </script>
+
+
+</body>
+</html>
