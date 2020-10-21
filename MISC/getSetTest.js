@@ -1,3 +1,4 @@
+// messing around with get/set
 class Thermostat {
     constructor(fahrenheit){
         this.fahrenheit=fahrenheit;
