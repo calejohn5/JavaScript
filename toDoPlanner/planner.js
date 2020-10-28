@@ -19,6 +19,6 @@ document.getElementById("btnOne").onclick = function() {
     
     btn1.addEventListener('click', function(e) {
     e.currentTarget.parentNode.remove();
-    
+
     });
 }
