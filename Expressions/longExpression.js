@@ -12,11 +12,11 @@ let result = userCheck.test(username);
 
 /* EXPLANATION
 1) ^ - start of input
-2) [a-z] - first character is a letter
-3) [a-z]+ - following characters are letters
-4) \d*$ - input ends with 0 or more digits
+2) \D - first character is a letter                           ([a-z])
+3) \D+ - following characters are letters                     ([a-z])
+4) \d*$ - input ends with 0 or more digits                    ([0-9])
 5) | - or
-6) ^[a-z] - first character is a letter
-7) \d\d+ - following characters are 2 or more digits
+6) ^\D - first character is a letter                          ([a-z])
+7) \d\d+ - following characters are 2 or more digits          ([0-9]) 
 8) $ - end of input
 */
